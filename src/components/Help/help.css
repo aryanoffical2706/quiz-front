@@ -1,0 +1,53 @@
+
+.help-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .step-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step-box span {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #007bff;
+  }
+  
+  .down-arrow {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #28a745;
+  }
+  

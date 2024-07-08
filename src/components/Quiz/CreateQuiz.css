@@ -1,0 +1,54 @@
+/* src/components/CreateQuiz.css */
+.create-quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px); /* Adjust based on your header and footer heights */
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .create-quiz-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-quiz-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .question-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .create-quiz-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .create-quiz-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-container {
+    text-align: center;
+  }
+  

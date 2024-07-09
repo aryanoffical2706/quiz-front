@@ -13,7 +13,7 @@ function TakeQuiz() {
   useEffect(() => {
     const fetchQuiz = async () => {
       try {
-        const response = await axios.get(`http://localhost:5001/api/quizzes/${id}`);
+        const response = await axios.get(`https://quizmaker-aryan.onrender.com/api/quizzes/${id}`);
         setQuiz(response.data);
         setAnswers(new Array(response.data.questions.length).fill(''));
       } catch (error) {

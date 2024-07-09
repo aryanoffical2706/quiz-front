@@ -9,7 +9,7 @@ function QuizList() {
   useEffect(() => {
     const fetchQuizzes = async () => {
       try {
-        const response = await axios.get('http://localhost:5001/api/quizzes');
+        const response = await axios.get('https://quizmaker-aryan.onrender.com/api/quizzes');
         setQuizzes(response.data);
       } catch (error) {
         console.error('Error fetching quizzes:', error);

@@ -26,7 +26,7 @@ function TakeQuiz() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5001/api/quizzes/submit', { quizId: id, answers });
+      const response = await axios.post('https://quizmaker-aryan.onrender.com/api/quizzes/submit', { quizId: id, answers });
       setScore(response.data.score);
       navigate(`/quiz/${id}/result`, { state: { score: response.data.score, total: quiz.questions.length } });
     } catch (error) {

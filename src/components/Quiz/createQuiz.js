@@ -31,7 +31,7 @@ function CreateQuiz() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5001/api/quizzes/create', { title, questions });
+      const response = await axios.post('https://quizmaker-aryan.onrender.com/api/quizzes/create', { title, questions });
       console.log('Quiz created:', response.data);
       setQuizCreated(true);
       alert('Quiz created successfully!');
